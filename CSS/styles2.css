@@ -97,3 +97,18 @@ body {
     display: inline-block;
     }
     
+
+    @media only screen and (max-width: 1000px) {
+        #navigation {
+          display: none;
+        }
+        .icons {
+          margin-left: auto;
+        }
+      }
+      
+      @media only screen and (max-width: 600px) {
+        #headline {
+          position: static;
+          margin: 20px;
+        }    
